@@ -14,7 +14,7 @@ import java.util.stream.IntStream;
 import static util.Constants.SEARCH_WORD;
 
 @Execution(ExecutionMode.CONCURRENT)
-@Tag("Search")
+@Tag("search")
 public class SearchTest extends BaseTest
 {
     HomePage homePage;
