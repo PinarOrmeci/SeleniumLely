@@ -9,9 +9,7 @@
 
 #### Running Tests With IntelliJ IDE
 
-Clone repo and after opening project, click play button in ide.
-
-![image-20220322161020788](/Users/pinar.ormeci/Library/Application Support/typora-user-images/image-20220322161020788.png)
+Clone repo and after opening project, click play button in the ide.
 
 #### Running Tests With Maven Command
 
@@ -26,12 +24,6 @@ mvn surefire:test -Dtest=**testName or className**
 mvn surefire:test -groups=**tagName**
 
 <u>Example :</u>  mvn surefire:test -Dtest=technicalDocuments
-
-![image-20220322161550257](/Users/pinar.ormeci/Library/Application Support/typora-user-images/image-20220322161550257.png)
-
-![image-20220322161520667](/Users/pinar.ormeci/Library/Application Support/typora-user-images/image-20220322161520667.png)
-
-
 
 ##### Parallelism :
 
